@@ -1,0 +1,16 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Trash
+.trash/
+**/.trash/
+
+# Sync conflicts
+*.sync-conflict-*
