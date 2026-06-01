@@ -1,0 +1,21 @@
+{
+  "autoSaveInterval": 10,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": true,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "disablePopups": true,
+  "disableStatusBar": false,
+  "listChangedFilesInMessageBody": true,
+  "commitMessage": "vault backup: {{date}} {{time}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoCommitMessage": "vault auto-sync: {{numFiles}} files",
+  "currentBranch": "main",
+  "syncMethod": "merge",
+  "submoduleRecurseCheckout": false,
+  "updateSubmodules": false,
+  "pushOnCommit": true,
+  "showStatusBar": true,
+  "autoCommitAndPush": true,
+  "autoCommit": true
+}
