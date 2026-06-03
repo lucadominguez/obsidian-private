@@ -238,6 +238,8 @@ I'm not going to tell you this is easy. It took me three years and more money th
 
 ## Visual Summary: Before → After
 
+![[Visuals/12-markers-dashboard.png]]
+
 | # | Marker | Before | After | Δ | Status |
 |---|---|---|---|---|---|
 | 1 | HS-CRP | 3.2 mg/L | 0.4 | -87% | ✅ |

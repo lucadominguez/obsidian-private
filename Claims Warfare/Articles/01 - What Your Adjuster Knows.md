@@ -113,6 +113,8 @@ Now you do.
 
 ## Visual Summary: The 7 Tactics & Counter-Moves
 
+![[Visuals/adjuster-playbook.png]]
+
 | # | Tactic | What They Do | Your Counter |
 |---|---|---|---|
 | 1 | Delay | Drag claim out — desperate people settle for less | Set deadlines in writing. File DOI complaint if missed. |

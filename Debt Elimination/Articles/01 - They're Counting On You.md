@@ -124,6 +124,8 @@ They're counting on you not knowing. Now you know.
 
 ## Visual Summary: The Weapons — In Order
 
+![[Visuals/debt-decision-tree.png]]
+
 | Priority | Weapon | When to Use | Cost | Savings |
 |---|---|---|---|---|
 | 1st | Statute of Limitations | Debt 3-6+ years old | $0 | 100% of balance |
