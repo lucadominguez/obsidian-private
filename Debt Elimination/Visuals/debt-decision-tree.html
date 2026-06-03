@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1100">
+<title>Debt Elimination Decision Tree</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0f172a; color:#e2e8f0; font-family:'JetBrains Mono',monospace; padding:48px; }
+  .container { max-width:1000px; margin:0 auto; }
+  
+  .header { text-align:center; margin-bottom:48px; }
+  .header .badge { display:inline-block; background:rgba(52,211,153,0.15); color:#34d399; padding:6px 16px; border-radius:4px; font-size:10px; letter-spacing:0.08em; margin-bottom:16px; border:1px solid rgba(52,211,153,0.3); }
+  .header h1 { font-size:30px; font-weight:700; color:#f8fafc; margin-bottom:8px; }
+  .header .sub { font-size:13px; color:#94a3b8; }
+
+  .tree { position:relative; }
+  
+  .node { margin-bottom:24px; }
+  .question-box { background:#1e293b; border:2px solid #334155; border-radius:10px; padding:20px 24px; max-width:550px; }
+  .question-box .q-label { font-size:9px; color:#64748b; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  .question-box .q-text { font-size:15px; font-weight:700; color:#f8fafc; }
+  
+  .branches { display:flex; gap:48px; margin-top:16px; margin-left:40px; position:relative; }
+  .branches::before { content:''; position:absolute; top:-8px; left:24px; width:1px; height:8px; background:#334155; }
+  
+  .branch { flex:1; max-width:400px; }
+  .branch-label { display:inline-block; padding:4px 12px; border-radius:4px; font-size:10px; font-weight:700; letter-spacing:0.05em; margin-bottom:12px; }
+  .branch-label.yes { background:rgba(34,197,94,0.15); color:#22c55e; border:1px solid rgba(34,197,94,0.3); }
+  .branch-label.no { background:rgba(239,68,68,0.15); color:#f87171; border:1px solid rgba(239,68,68,0.3); }
+  
+  .action-card { background:#1a2332; border:1px solid #334155; border-radius:8px; padding:16px 18px; }
+  .action-card .action-title { font-size:12px; font-weight:700; margin-bottom:6px; }
+  .action-card .action-title.settle { color:#fbbf24; }
+  .action-card .action-title.ignore { color:#f87171; }
+  .action-card .action-title.pay { color:#22c55e; }
+  .action-card .action-title.validate { color:#38bdf8; }
+  .action-card .action-desc { font-size:11px; color:#94a3b8; line-height:1.5; margin-bottom:8px; }
+  .action-card .action-stat { font-size:10px; color:#64748b; }
+  .action-card .action-stat span { color:#f8fafc; font-weight:700; }
+
+  .divider { height:1px; background:#1e293b; margin:32px 0; }
+
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:48px; }
+  .stat-card { background:#1e293b; border:1px solid #334155; border-radius:8px; padding:24px; text-align:center; }
+  .stat-num { font-size:40px; font-weight:700; color:#38bdf8; margin-bottom:6px; }
+  .stat-label { font-size:10px; color:#64748b; letter-spacing:0.04em; line-height:1.4; }
+
+  .footer { text-align:center; font-size:10px; color:#334155; padding-top:24px; border-top:1px solid #1e293b; margin-top:48px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="badge">STRATEGY FRAMEWORK</div>
+    <h1>THE DEBT ELIMINATION DECISION TREE</h1>
+    <div class="sub">What to pay, what to settle, what to ignore. $87K eliminated using this framework.</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card"><div class="stat-num">$87K</div><div class="stat-label">TOTAL DEBT ELIMINATED</div></div>
+    <div class="stat-card"><div class="stat-num">780</div><div class="stat-label">CREDIT SCORE AFTER ELIMINATION</div></div>
+    <div class="stat-card"><div class="stat-num">70%</div><div class="stat-label">OF VALIDATION LETTERS SUCCEED</div></div>
+  </div>
+
+  <!-- QUESTION 1 -->
+  <div class="node">
+    <div class="question-box">
+      <div class="q-label">Question 1</div>
+      <div class="q-text">Is the debt past the statute of limitations in your state?</div>
+    </div>
+    <div class="branches">
+      <div class="branch">
+        <span class="branch-label yes">YES</span>
+        <div class="action-card">
+          <div class="action-title ignore">→ IGNORE THE DEBT</div>
+          <div class="action-desc">The debt is legally uncollectible. They cannot sue. Do not pay anything — even $1 restarts the clock. Do not acknowledge the debt in writing.</div>
+          <div class="action-stat">Statute of limitations: <span>3-6 years</span> depending on state &amp; debt type</div>
+        </div>
+      </div>
+      <div class="branch">
+        <span class="branch-label no">NO (or unsure)</span>
+        <div class="action-card">
+          <div class="action-title validate">→ SEND VALIDATION LETTER</div>
+          <div class="action-desc">Federal law (FDCPA) gives you 30 days to demand proof. Certified mail. Return receipt. They MUST stop all collection activity until they provide proof.</div>
+          <div class="action-stat">Success rate: <span>~70%</span> can't produce documentation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- QUESTION 2 -->
+  <div class="node">
+    <div class="question-box">
+      <div class="q-label">Question 2</div>
+      <div class="q-text">Did they validate the debt with complete documentation?</div>
+    </div>
+    <div class="branches">
+      <div class="branch">
+        <span class="branch-label no">NO</span>
+        <div class="action-card">
+          <div class="action-title ignore">→ DEBT IS DEAD</div>
+          <div class="action-desc">They can't collect. They can't report it. Dispute it with credit bureaus — if they can't verify within 30 days, it gets removed.</div>
+          <div class="action-stat">Average debt eliminated this way: <span>$22,000</span> across 7 accounts</div>
+        </div>
+      </div>
+      <div class="branch">
+        <span class="branch-label yes">YES — THEY HAVE PROOF</span>
+        <div class="action-card">
+          <div class="action-title settle">→ NEGOTIATE SETTLEMENT</div>
+          <div class="action-desc">Stop paying. Wait 4-6 months for charge-off. Counter their first offer (60-70%) with 25-30%. Get the agreement IN WRITING before paying. Use cashier's check — never give electronic account access.</div>
+          <div class="action-stat">Best settlement: <span>$14K → $4,200</span> (30%)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- QUESTION 3 -->
+  <div class="node">
+    <div class="question-box">
+      <div class="q-label">Question 3</div>
+      <div class="q-text">Is the debt still on your credit report after resolution?</div>
+    </div>
+    <div class="branches">
+      <div class="branch">
+        <span class="branch-label yes">YES — DISPUTE OR PAY-FOR-DELETE</span>
+        <div class="action-card">
+          <div class="action-title pay">→ SEND CREDIT REPORT DISPUTES</div>
+          <div class="action-desc">Send dispute letters to all 3 bureaus (Equifax, Experian, TransUnion). If they can't verify within 30 days, the item is removed. For verified debts: negotiate pay-for-delete — trade payment for complete removal.</div>
+          <div class="action-stat">Items removed from my report: <span>7</span> · Score jump per removal: <span>~40 pts</span></div>
+        </div>
+      </div>
+      <div class="branch">
+        <span class="branch-label no">ALREADY CLEAN → REBUILD</span>
+        <div class="action-card">
+          <div class="action-title pay">→ REBUILD CREDIT</div>
+          <div class="action-desc">Secured credit card. Keep utilization under 10%. Pay in full every month. Add rent/utility reporting. Authorized user on a trusted account. 420 → 780 took 3 years.</div>
+          <div class="action-stat">Credit score: <span>420 → 780</span> in ~3 years</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">Debt Elimination &amp; Credit Engineering · Alex Rivera · debt-elimination</div>
+
+</div>
+</body>
+</html>
