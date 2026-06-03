@@ -234,4 +234,10 @@ I'm not going to tell you this is easy. It took me three years and more money th
 
 *You don't need a doctor to order these. Marek Health, Own Your Labs, and Ulta Lab Tests will run all 12 for $200-400 total. Get baselines before you start any protocol. Track trends, not single readings. One abnormal result is a point. Three in a row is a pattern.*
 
+---
+
+**Visual companion:** [[Visuals/Dashboard Infographic|The 12 Markers Dashboard]] — standard vs optimal range gauges for all 12 markers. [Open in browser](Visuals/12-markers-dashboard.html)
+
+---
+
 *[Download the 12 Lab Markers Checklist — full optimal ranges, recommended labs, and tracking template]*

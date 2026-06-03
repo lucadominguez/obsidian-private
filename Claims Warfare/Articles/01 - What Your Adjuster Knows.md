@@ -109,6 +109,12 @@ Now you do.
 
 ---
 
+---
+
+**Visual companion:** [[Visuals/Adjuster Playbook Infographic|The Adjuster's Playbook]] — all 7 tactics with counter-moves. [Open in browser](Visuals/adjuster-playbook.html)
+
+---
+
 *[Download the Damage Documentation Checklist — free]*<br>
 *[Access the full playbook library: roof, water, fire, auto, business interruption — $149/mo]*
 

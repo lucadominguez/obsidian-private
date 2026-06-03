@@ -120,5 +120,11 @@ They're counting on you not knowing. Now you know.
 
 ---
 
+---
+
+**Visual companion:** [[Visuals/Decision Tree Infographic|The Debt Elimination Decision Tree]] — what to pay, settle, or ignore. [Open in browser](Visuals/debt-decision-tree.html)
+
+---
+
 *[Download the Debt Elimination Decision Tree — which debts to pay, settle, or ignore, step by step]*<br>
 *[Join Debt Elimination — full template library, settlement negotiation guides, creditor intelligence database — $99/mo]*
