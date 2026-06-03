@@ -2,117 +2,149 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=1200">
-<title>The Adjuster's Playbook — Claims Warfare</title>
+<meta name="viewport" content="width=1300">
+<title>The Adjuster's Playbook</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { background:#0f172a; color:#e2e8f0; font-family:'JetBrains Mono',monospace; padding:48px; }
-  .container { max-width:1100px; margin:0 auto; }
-
-  .header { text-align:center; margin-bottom:48px; }
-  .header .badge { display:inline-block; background:rgba(239,68,68,0.15); color:#f87171; padding:6px 16px; border-radius:4px; font-size:10px; letter-spacing:0.08em; margin-bottom:16px; border:1px solid rgba(239,68,68,0.3); }
-  .header h1 { font-size:32px; font-weight:700; color:#f8fafc; margin-bottom:8px; letter-spacing:0.03em; }
-  .header .sub { font-size:13px; color:#94a3b8; }
-
-  .tactic-grid { display:flex; flex-direction:column; gap:16px; margin-bottom:48px; }
-
-  .tactic-row { display:grid; grid-template-columns:80px 280px 1fr 1fr; gap:0; background:#1e293b; border-radius:8px; overflow:hidden; border:1px solid #334155; transition:all 0.15s; }
-  .tactic-row:hover { border-color:#f87171; }
-
-  .tactic-num { display:flex; align-items:center; justify-content:center; background:#1a2332; color:#f87171; font-size:22px; font-weight:700; border-right:1px solid #334155; }
-  .tactic-name { display:flex; align-items:center; padding:18px 20px; font-size:14px; font-weight:700; color:#f8fafc; background:#1a2332; letter-spacing:0.04em; border-right:1px solid #334155; }
-  .tactic-what { padding:18px 20px; font-size:12px; color:#cbd5e1; line-height:1.5; border-right:1px solid #334155; }
-  .tactic-what .label { font-size:9px; color:#64748b; letter-spacing:0.06em; margin-bottom:6px; text-transform:uppercase; }
-  .tactic-counter { padding:18px 20px; font-size:12px; color:#86efac; line-height:1.5; }
-  .tactic-counter .label { font-size:9px; color:#4ade80; letter-spacing:0.06em; margin-bottom:6px; text-transform:uppercase; }
-
-  .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:48px; }
-  .stat-card { background:#1e293b; border:1px solid #334155; border-radius:8px; padding:24px; text-align:center; }
-  .stat-num { font-size:40px; font-weight:700; color:#f87171; margin-bottom:6px; }
-  .stat-label { font-size:10px; color:#64748b; letter-spacing:0.04em; line-height:1.4; }
-
-  .cta { background:linear-gradient(135deg,#1e293b,#0f172a); border:1px solid #334155; border-left:4px solid #f87171; border-radius:8px; padding:24px 32px; margin-bottom:48px; }
-  .cta .cta-title { font-size:11px; color:#f87171; letter-spacing:0.06em; font-weight:700; margin-bottom:8px; }
-  .cta .cta-text { font-size:14px; color:#cbd5e1; line-height:1.7; }
-
-  .footer { text-align:center; font-size:10px; color:#334155; padding-top:24px; border-top:1px solid #1e293b; }
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#0c0c0f;color:#d4d4d8;font-family:Inter,system-ui,sans-serif;padding:40px 48px}
+  .wrapper{max-width:1300px;margin:0 auto}
+  
+  .header{text-align:center;margin-bottom:40px}
+  .header .stamp{display:inline-block;background:rgba(239,68,68,.12);color:#f87171;padding:5px 14px;border-radius:3px;font-size:9px;font-family:'JetBrains Mono',monospace;letter-spacing:.1em;border:1px solid rgba(239,68,68,.25);margin-bottom:14px}
+  .header h1{font-family:'JetBrains Mono',monospace;font-size:28px;font-weight:700;color:#fafafa;letter-spacing:.02em;margin-bottom:4px}
+  .header .sub{font-size:12px;color:#52525b}
+  
+  .kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:36px}
+  .kpi{background:#16161a;border:1px solid #27272a;border-radius:8px;padding:20px;text-align:center}
+  .kpi .n{font-size:38px;font-weight:700;color:#f87171;font-family:'JetBrains Mono',monospace}
+  .kpi .l{font-size:10px;color:#52525b;margin-top:4px;letter-spacing:.04em}
+  
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:36px}
+  
+  .card{background:#16161a;border:1px solid #27272a;border-radius:10px;padding:22px 24px;position:relative;overflow:hidden}
+  .card:hover{border-color:#3f3f46}
+  .card .num{position:absolute;top:14px;right:16px;font-size:10px;color:#3f3f46;font-family:'JetBrains Mono',monospace}
+  .card .tactic{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#f87171;letter-spacing:.04em;margin-bottom:10px}
+  .card .what{font-size:11px;color:#a1a1aa;line-height:1.5;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #27272a}
+  .card .counter-label{font-size:8px;color:#22c55e;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .card .counter{font-size:12px;color:#86efac;line-height:1.5;font-weight:500}
+  
+  .grid .card:nth-child(7){grid-column:span 2}
+  
+  .flow-section{background:#16161a;border:1px solid #27272a;border-radius:10px;padding:28px;margin-bottom:36px}
+  .flow-section h2{font-family:'JetBrains Mono',monospace;font-size:13px;color:#52525b;letter-spacing:.06em;margin-bottom:20px}
+  .flow{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap}
+  .flow-step{background:#1a1a1e;border:1px solid #27272a;border-radius:8px;padding:14px 18px;text-align:center;min-width:140px}
+  .flow-step .step-num{font-size:9px;color:#52525b;letter-spacing:.06em;margin-bottom:4px}
+  .flow-step .step-title{font-size:11px;font-weight:600;color:#fafafa;margin-bottom:2px}
+  .flow-step .step-detail{font-size:10px;color:#71717a}
+  .flow-arrow{font-size:18px;color:#3f3f46;margin:0 8px;font-family:'JetBrains Mono',monospace}
+  .flow-arrow.bad{color:#f87171}
+  
+  .insight{background:linear-gradient(135deg,#16161a,#0c0c0f);border:1px solid #27272a;border-left:4px solid #f87171;border-radius:8px;padding:20px 28px;margin-bottom:36px}
+  .insight .t{font-size:10px;color:#f87171;letter-spacing:.06em;font-weight:600;margin-bottom:6px}
+  .insight .b{font-size:12px;color:#a1a1aa;line-height:1.7}
+  .insight .b strong{color:#fafafa}
+  
+  .footer{text-align:center;font-size:10px;color:#27272a;margin-top:40px;padding-top:20px;border-top:1px solid #1e1e22}
 </style>
 </head>
 <body>
-<div class="container">
+<div class="wrapper">
 
   <div class="header">
-    <div class="badge">INTERNAL DOCUMENT — FORMERLY RESTRICTED</div>
+    <div class="stamp">INTERNAL DOCUMENT — FORMERLY RESTRICTED</div>
     <h1>THE ADJUSTER'S PLAYBOOK</h1>
-    <div class="sub">7 tactics they use on every claim — and how to counter each one. Based on 12 years inside the industry.</div>
+    <div class="sub">7 tactics. 7 counter-moves. Based on 12 years inside the industry. 8,000+ claims handled.</div>
   </div>
 
-  <div class="stats">
-    <div class="stat-card"><div class="stat-num">8,000+</div><div class="stat-label">CLAIMS HANDLED BY ONE ADJUSTER IN 12 YEARS</div></div>
-    <div class="stat-card"><div class="stat-num">40-60%</div><div class="stat-label">FIRST OFFER AS % OF ACTUAL CLAIM VALUE</div></div>
-    <div class="stat-card"><div class="stat-num">~$300</div><div class="stat-label">COST TO ACCESS FULL PLAYBOOK LIBRARY (1 MO)</div></div>
+  <div class="kpi-row">
+    <div class="kpi"><div class="n">40-60%</div><div class="l">FIRST OFFER AS % OF ACTUAL VALUE</div></div>
+    <div class="kpi"><div class="n">0</div><div class="l">HOURS OF TRAINING ON MAXIMIZING YOUR PAYOUT</div></div>
+    <div class="kpi"><div class="n">3</div><div class="l">METRICS ADJUSTERS ARE ACTUALLY JUDGED ON</div></div>
+    <div class="kpi"><div class="n">$149</div><div class="l">COST TO ACCESS THE FULL COUNTER-PLAYBOOK</div></div>
   </div>
 
-  <div class="tactic-grid">
-
-    <div class="tactic-row">
-      <div class="tactic-num">1</div>
-      <div class="tactic-name">DELAY</div>
-      <div class="tactic-what"><span class="label">What they do</span>The longer a claim drags on, the more desperate you get. Desperate people settle for less. They "need more documentation," they're "waiting on a supervisor," the adjuster is "out of office." Every delay is strategic.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Set deadlines in writing. "If I do not receive a response within 7 business days, I will file a complaint with the Department of Insurance." Then do it. Deadlines without consequences are requests.</div>
+  <div class="grid">
+    <div class="card">
+      <span class="num">01</span>
+      <div class="tactic">DELAY</div>
+      <div class="what">The longer a claim drags on, the more desperate you get. Desperate people settle for less. They "need more documentation," the adjuster is "out of office," the supervisor is "reviewing." Every delay is calculated. Claims that close in 30 days average 22% higher payouts than claims that drag past 90 days.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Set deadlines in writing. "If I do not receive a response within 7 business days, I will file a complaint with the Department of Insurance." Then do it. Deadlines without consequences are requests.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">2</div>
-      <div class="tactic-name">LOWBALL<br>FIRST OFFER</div>
-      <div class="tactic-what"><span class="label">What they do</span>First number is always 40-60% of what they've internally reserved. It's a test, not an offer. They expect you to negotiate. If you accept it, they win.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Reject the first number entirely. Do not negotiate from it. Counter with your contractor's estimate. Make them argue against a professional assessment, not your opinion.</div>
+    <div class="card">
+      <span class="num">02</span>
+      <div class="tactic">LOWBALL FIRST OFFER</div>
+      <div class="what">First number is always 40-60% of the internal reserve. It's a test, not an offer. The adjuster is measuring your reaction, your knowledge, your willingness to push back. If you accept or negotiate from their number, you've already lost the anchoring war.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Reject the first number entirely. Do not negotiate from it. Counter with your contractor's written estimate. Make them argue against a professional assessment, not your opinion. The first number on the table owns the negotiation.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">3</div>
-      <div class="tactic-name">VAGUE<br>DENIALS</div>
-      <div class="tactic-what"><span class="label">What they do</span>"Does not meet criteria for coverage." They don't cite specific policy language because specific language can be challenged. Vagueness is a shield.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Demand the exact section, paragraph, and sentence they're relying on. "Please cite the specific policy language that supports your determination." 60% of the time, the language doesn't actually say what they claim.</div>
+    <div class="card">
+      <span class="num">03</span>
+      <div class="tactic">VAGUE DENIALS</div>
+      <div class="what">"Does not meet criteria for coverage." No specific policy language cited. No specific facts. Vagueness is a shield — specific language can be challenged, so they avoid it. 60% of the time, the policy language doesn't actually say what they're claiming.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Demand the exact section, paragraph, and sentence. "Please cite the specific policy language that supports your determination." This forces them to commit to a position in writing, and their position often falls apart under scrutiny.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">4</div>
-      <div class="tactic-name">DOCUMENT<br>FLOOD</div>
-      <div class="tactic-what"><span class="label">What they do</span>Request unnecessary documentation. Receipts from 5 years ago. Proof you maintained the property. Anything that creates work. The hope: you give up before you finish.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Ask which specific policy provision requires each document. "Please identify the policy provision that makes this document necessary for claim evaluation." If they can't cite one, you don't need to provide it.</div>
+    <div class="card">
+      <span class="num">04</span>
+      <div class="tactic">DOCUMENT FLOOD</div>
+      <div class="what">Request unnecessary documentation. Receipts from 5 years ago. Proof of maintenance records. Anything that creates work and delay. The strategy: make the process so burdensome you give up. Most people do.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Ask which specific policy provision requires each document. "Please identify the policy provision that makes this document necessary for claim evaluation." If they can't cite one, you don't need to provide it.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">5</div>
-      <div class="tactic-name">GOOD COP<br>/ BAD COP</div>
-      <div class="tactic-what"><span class="label">What they do</span>The adjuster is "on your side" but their supervisor keeps denying things. The supervisor is "unavailable." They're not unavailable. They're the bad cop, and it's coordinated.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Request the supervisor's direct contact information. In writing. "Please provide the name and direct phone number of the supervisor who made this determination." They'll either provide it or reverse the decision.</div>
+    <div class="card">
+      <span class="num">05</span>
+      <div class="tactic">GOOD COP / BAD COP</div>
+      <div class="what">The adjuster is "on your side" but their supervisor keeps denying things. The supervisor is conveniently "unavailable" when you want to escalate. This is coordinated. The adjuster and supervisor discuss every claim. The "bad cop" is deliberate.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Request the supervisor's direct contact information in writing. "Please provide the name and direct phone number of the supervisor who made this determination." They'll either provide it and you escalate, or they'll reverse the decision to avoid escalation.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">6</div>
-      <div class="tactic-name">RECORDED<br>STATEMENT</div>
-      <div class="tactic-what"><span class="label">What they do</span>Ask for a recorded statement as if it's required. Every word will be parsed by people looking for a reason to deny or limit. "You said 'a few weeks' — that's maintenance, not sudden damage."</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>It's optional. Decline. If you must give one, have your contractor's estimate in front of you. Don't guess. Don't speculate. Answer only what's asked. Stop talking.</div>
+    <div class="card">
+      <span class="num">06</span>
+      <div class="tactic">RECORDED STATEMENT TRAP</div>
+      <div class="what">They ask for a recorded statement as if it's required. The form uses official language. It's optional in most cases. Every word will be parsed by people whose job is finding a reason to pay less. "You said 'a few weeks' — that's maintenance, not sudden damage."</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Decline. If you must give one, have your contractor's estimate in front of you. Don't guess. Don't speculate. Answer only what's asked. Stop talking. A written statement you've reviewed is always safer than a recording.</div>
     </div>
 
-    <div class="tactic-row">
-      <div class="tactic-num">7</div>
-      <div class="tactic-name">DEADLINE<br>PRESSURE</div>
-      <div class="tactic-what"><span class="label">What they do</span>"This offer expires in 7 days." It never actually does. The deadline is artificial — a pressure tactic to make you accept before you've done your research.</div>
-      <div class="tactic-counter"><span class="label">Your counter</span>Ignore the deadline. Get your own estimates. Take your time. A real settlement offer doesn't expire. If they truly pull it, you weren't going to get fair value anyway.</div>
+    <div class="card">
+      <span class="num">07</span>
+      <div class="tactic">DEADLINE PRESSURE</div>
+      <div class="what">"This offer expires in 7 days." It never actually does. The deadline is entirely artificial — a pressure tactic designed to make you accept before you've done your research, gotten your own estimates, or consulted anyone. Urgency is the enemy of good decisions.</div>
+      <div class="counter-label">Counter</div>
+      <div class="counter">Ignore the deadline. Get your own estimates. Take your time. A real settlement offer doesn't expire. If they truly pull it, you weren't going to get fair value anyway. The only real deadlines are the ones in your policy or state law.</div>
     </div>
-
   </div>
 
-  <div class="cta">
-    <div class="cta-title">▸ THE BOTTOM LINE</div>
-    <div class="cta-text">Every one of these tactics works because policyholders don't know they're being played. Now you do. <strong style="color:#f8fafc">Document everything. Set deadlines. Escalate. Never take the first offer. Never give a recorded statement without preparation. And when in doubt, invoke the appraisal clause.</strong></div>
+  <div class="flow-section">
+    <h2>ESCALATION PATH: WHEN THE ADJUSTER SAYS "NO"</h2>
+    <div class="flow">
+      <div class="flow-step"><div class="step-num">STEP 1</div><div class="step-title">Demand Specifics</div><div class="step-detail">Exact policy language<br>Exact facts relied on</div></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><div class="step-num">STEP 2</div><div class="step-title">Escalate to Supervisor</div><div class="step-detail">Request name + direct<br>contact in writing</div></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><div class="step-num">STEP 3</div><div class="step-title">DOI Complaint</div><div class="step-detail">File with your state's<br>Dept of Insurance</div></div>
+      <span class="flow-arrow">→</span>
+      <div class="flow-step"><div class="step-num">STEP 4</div><div class="step-title">Appraisal Clause</div><div class="step-detail">Nuclear option.<br>Binding. Bypasses adjuster.</div></div>
+      <span class="flow-arrow bad">→</span>
+      <div class="flow-step"><div class="step-num">STEP 5</div><div class="step-title">Attorney</div><div class="step-detail">Last resort.<br>Bad faith threshold.</div></div>
+    </div>
   </div>
 
-  <div class="footer">Claims Warfare · Tom Barrett · Former adjuster, 12 years · claim-warfare</div>
+  <div class="insight">
+    <div class="t">▸ THE BOTTOM LINE</div>
+    <div class="b">Every one of these tactics works because policyholders don't know they're being played. <strong>Document everything. Set deadlines. Escalate. Never take the first offer. Never give a recorded statement without preparation. And when in doubt, invoke the appraisal clause.</strong> The system is designed against you. Now you know how it works.</div>
+  </div>
+
+  <div class="footer">Claims Warfare · Tom Barrett · Former adjuster, 12 years, 8,000+ claims · claim-warfare</div>
 
 </div>
 </body>

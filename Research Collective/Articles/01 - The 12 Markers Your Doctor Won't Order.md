@@ -26,7 +26,7 @@ The 12 markers below are the ones that actually moved for me, and the ones I now
 
 There are two CRP tests. The regular one flags acute infection — your body mounting a full-scale immune response to something. The high-sensitivity version measures the low-grade background inflammation that doesn't set off any alarms but is quietly damaging your blood vessels, your brain, and your metabolic machinery year after year.
 
-My regular CRP was normal. My HS-CRP was 3.2 mg/L.
+My regular CRP was normal. My HS-CRP was 3.2 mg/L — above the 3.0 threshold that stratifies "high cardiovascular risk" in the Reynolds Risk Score, a risk model that outperforms the standard Framingham score specifically because it includes HS-CRP. The American Heart Association added HS-CRP to its prevention guidelines in 2018 for a reason.
 
 Let me put that number in context. Cardiovascular risk stratification uses these cutoffs: under 1.0 is low risk, 1.0 to 3.0 is average risk, above 3.0 is high risk. For optimal function — and I mean actually optimal, not "you probably won't have a heart attack this year" — you want it under 0.5. Mine is now 0.4.
 
@@ -48,7 +48,7 @@ Homocysteine is an amino acid that accumulates when your methylation cycle isn't
 
 My first reading was 12.1 µmol/L. The lab said normal — their reference range goes up to 15. Optimal is under 7.
 
-Getting from 12.1 to 6.8 was straightforward once I understood the mechanism: I have an MTHFR mutation[^3] that makes me bad at converting regular B vitamins into their active methylated forms. So I was taking a B-complex that my body couldn't actually use. Switching to methylfolate and methyl-B12 brought it down over about three months. Same vitamins, different chemical form. That was it.
+Getting from 12.1 to 6.8 was straightforward once I understood the mechanism: I have an MTHFR mutation[^3] that makes me bad at converting regular B vitamins into their active methylated forms. So I was taking a B-complex that my body couldn't actually use. Switching to methylfolate (5-MTHF, 1mg daily) and methyl-B12 (methylcobalamin, 1,000mcg daily) brought it down over about three months. For comparison, standard folic acid supplementation typically reduces homocysteine by only 10-15%. Methylated forms reduce it by 25-45% in MTHFR carriers. Same vitamins, different chemical form. That was it.
 
 [^3]: Yes, that's the real acronym. Geneticists are either oblivious or they know exactly what they're doing. MTHFR codes for methylenetetrahydrofolate reductase, the enzyme that converts folate into its active form. About 40% of people have at least one copy of the C677T variant that reduces enzyme efficiency.
 
