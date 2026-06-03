@@ -34,7 +34,7 @@ Here's the problem with that logic. The standard lab panel was designed to catch
 
 When I finally found a doctor who ordered the *right* tests, the picture changed instantly. My EBV panel showed reactivation. My natural killer cell function was at the 5th percentile.[^2] My tilt table test was positive for POTS — my heart rate jumped 40 beats per minute just from standing up. My tryptase was elevated, pointing toward mast cell activation. None of this showed up on the standard panels I'd been getting for three years.
 
-[^2]: Low natural killer cell function is one of the most consistent findings in ME/CFS research. It's not diagnostic on its own — plenty of healthy people have low NK function — but in combination with the symptom pattern and other markers, it's a strong signal. The test exists. Almost no one orders it.
+[^2]: Low natural killer cell function is one of the most consistent findings in ME/CFS research. Baraniuk et al. (2024, *Frontiers in Immunology*, DOI: 10.3389/fimmu.2024.1440643) conducted a meta-analysis of 28 studies and found NK cytotoxicity reduced to roughly half of healthy control levels — the most consistent immune abnormality in the literature. The test exists. Almost no one orders it.
 
 I wasn't crazy. I had a multi-system illness that the standard diagnostic toolkit was never designed to find. The gaslighting — and I'm using that word deliberately, because being told repeatedly that your lived experience of your own body is wrong is a form of gaslighting — was not a failure of individual doctors. It was a failure of the diagnostic paradigm.
 
