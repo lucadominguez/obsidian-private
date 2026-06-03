@@ -236,6 +236,27 @@ I'm not going to tell you this is easy. It took me three years and more money th
 
 ---
 
+## Visual Summary: Before → After
+
+| # | Marker | Before | After | Δ | Status |
+|---|---|---|---|---|---|
+| 1 | HS-CRP | 3.2 mg/L | 0.4 | -87% | ✅ |
+| 2 | Homocysteine | 12.1 µmol/L | 6.8 | -44% | ✅ |
+| 3 | Free T | 8.2 ng/dL | 16.1 | +96% | ✅ |
+| 4 | Vitamin D | 28 ng/mL | 68 | +143% | ✅ |
+| 5 | HbA1c | 5.5% | 5.0 | -9% | ✅ |
+| 6 | Fasting Insulin | 12.0 µIU/mL | 3.2 | -73% | ✅ |
+| 7 | TSH | 2.8 mIU/L | 1.7 | -39% | ✅ |
+| 8 | Ferritin | 38 ng/mL | 82 | +116% | ✅ |
+| 9 | Magnesium RBC | 4.2 mg/dL | 5.8 | +38% | → |
+| 10 | Omega-3 Index | 4.2% | 10.1 | +140% | ✅ |
+| 11 | ApoB | 84 mg/dL | 52 | -38% | ✅ |
+| 12 | Zinc | 68 µg/dL | 98 | +44% | ✅ |
+
+11 of 12 markers at optimal. Full interactive dashboard with charts: [[Visuals/Dashboard Infographic|open in browser →]]
+
+---
+
 **Visual companion:** [[Visuals/Dashboard Infographic|The 12 Markers Dashboard]] — standard vs optimal range gauges for all 12 markers. [Open in browser](Visuals/12-markers-dashboard.html)
 
 ---

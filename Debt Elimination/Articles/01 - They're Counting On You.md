@@ -122,6 +122,20 @@ They're counting on you not knowing. Now you know.
 
 ---
 
+## Visual Summary: The Weapons — In Order
+
+| Priority | Weapon | When to Use | Cost | Savings |
+|---|---|---|---|---|
+| 1st | Statute of Limitations | Debt 3-6+ years old | $0 | 100% of balance |
+| 2nd | Debt Validation Letter | Within 30 days of collector contact | ~$5 | 100% (if they can't validate) |
+| 3rd | Settlement Negotiation | Debt is valid & collectible | 25-40% of balance | 60-75% of balance |
+| 4th | Credit Report Dispute | Negative items on report | ~$5/letter | 40+ pts score per item |
+| 5th | Pay-for-Delete | Verified debt, want clean report | Negotiated | Complete removal |
+
+Full interactive decision tree: [[Visuals/Decision Tree Infographic|open in browser →]]
+
+---
+
 **Visual companion:** [[Visuals/Decision Tree Infographic|The Debt Elimination Decision Tree]] — what to pay, settle, or ignore. [Open in browser](Visuals/debt-decision-tree.html)
 
 ---

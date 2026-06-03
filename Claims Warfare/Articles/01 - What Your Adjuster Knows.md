@@ -111,6 +111,22 @@ Now you do.
 
 ---
 
+## Visual Summary: The 7 Tactics & Counter-Moves
+
+| # | Tactic | What They Do | Your Counter |
+|---|---|---|---|
+| 1 | Delay | Drag claim out — desperate people settle for less | Set deadlines in writing. File DOI complaint if missed. |
+| 2 | Lowball First Offer | Offer 40-60% of actual value as "opening" | Reject entirely. Counter with contractor estimate. |
+| 3 | Vague Denials | "Does not meet criteria" — no specifics | Demand exact policy section, paragraph, sentence. |
+| 4 | Document Flood | Request unnecessary paperwork — hope you give up | Ask which policy provision requires each document. |
+| 5 | Good Cop / Bad Cop | Supervisor is "unavailable" to escalate | Request name + direct contact in writing. |
+| 6 | Recorded Statement | Parse every word for ammunition | Decline. It's optional. If you must, prepare, then stop talking. |
+| 7 | Deadline Pressure | "Offer expires in 7 days" — it never does | Ignore deadline. Take your time. Get estimates. |
+
+Full interactive playbook with escalation path: [[Visuals/Adjuster Playbook Infographic|open in browser →]]
+
+---
+
 **Visual companion:** [[Visuals/Adjuster Playbook Infographic|The Adjuster's Playbook]] — all 7 tactics with counter-moves. [Open in browser](Visuals/adjuster-playbook.html)
 
 ---
