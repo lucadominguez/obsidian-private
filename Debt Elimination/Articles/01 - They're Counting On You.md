@@ -6,9 +6,9 @@
 
 ---
 
-I had $87,000 in debt.
+I had $87,000 in debt. That's the number I saw every time I opened a spreadsheet to figure out which bill to pay and which to let slide this month.
 
-Credit cards. Student loans. A car loan where I owed $14,000 on a vehicle worth maybe $7,000. Debt collectors calling my family — my family, not me, because they'd figured out I wasn't answering. Wages being garnished. My credit score was 420. Four hundred and twenty. That's not a typo. That's the kind of number where you can't rent an apartment, can't get a loan for anything, and get charged a deposit just to open a utility account.
+$42,000 in credit card debt across four accounts — one of them was at 29.99% APR, which should be illegal but isn't. $31,000 in student loans. $14,000 on a car loan where I owed double what the vehicle was worth because I'd rolled negative equity from the previous car into it — a decision I made at 24 that followed me for years. Debt collectors calling my family — my family, not me, because they'd figured out I wasn't answering and they're legally allowed to call "third parties" to locate you under FDCPA §1692b, though they're not supposed to discuss the debt. They discussed it anyway. Wages being garnished at 25% of my disposable income, the maximum allowed under federal law for most consumer debts. My credit score was 420 — 67th percentile, wrong direction. You can't rent an apartment with a 420. You can't get a loan for anything. Utility companies charge you a deposit just to open an account.
 
 Today I'm completely debt-free. My credit score is 780. No bankruptcy. No debt settlement company that took my money and did nothing.[^1] I climbed out using strategies I had to learn the hard way because the system is designed to keep you in debt, and the people profiting from your debt have no incentive to tell you how to escape it.
 

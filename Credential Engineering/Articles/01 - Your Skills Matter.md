@@ -10,9 +10,9 @@ I have a degree in computer science. It's from a reputable university. I graduat
 
 When I immigrated to the United States, I discovered that none of this mattered.
 
-For three years, I was underemployed. Not unemployed — I was working. I was just working at roughly 40% of what I was qualified for. IT support. Help desk tickets. Resetting passwords. Meanwhile, my classmates from the same program, with the same skills, were making $150,000 at companies that wouldn't even look at my resume. The problem wasn't my ability. It was that nobody recognized my degree.
+For three years, I was underemployed. Not unemployed — I was working. I was just working at roughly 40% of what I was qualified for. IT support. Help desk tickets. Resetting passwords for $22/hour. Meanwhile, my classmates from the same program, with the same skills, were making $150,000 at companies that wouldn't even look at my resume. The problem wasn't my ability. It was that nobody recognized my degree. Every application hit the same wall: "We require a degree from an accredited US institution." A study by the Migration Policy Institute found that approximately 2 million college-educated immigrants in the US are unemployed or underemployed — a phenomenon they call "brain waste" — and the single largest driver is non-recognition of foreign credentials.
 
-Every application hit the same wall. "We require a degree from an accredited US institution." "This position requires US-recognized credentials." "Your qualifications do not meet our requirements." I was told — explicitly, by multiple recruiters — to go back to school for two years and spend $40,000 on a degree that would teach me what I already knew.
+Every application hit the same wall. "We require a degree from an accredited US institution." "This position requires US-recognized credentials." "Your qualifications do not meet our requirements." I was told — explicitly, by multiple recruiters — to go back to school for two years and spend $40,000 on a degree that would teach me what I already knew. I made $22/hour while people I'd outperformed in university made $75/hour. The gap was entirely paperwork.
 
 I didn't do that. Instead, I found another way.
 
