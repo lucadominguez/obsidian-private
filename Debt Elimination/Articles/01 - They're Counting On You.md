@@ -122,6 +122,20 @@ They're counting on you not knowing. Now you know.
 
 ---
 
+## Figure 1: Credit Score Recovery Timeline
+
+![[Visuals/fig-credit-score-recovery.png]]
+
+*Credit score recovery from 420 to 780 over 3 years. Key milestones: validation letters, settlement negotiations, credit report disputes, pay-for-delete, and secured card. Subprime and prime thresholds annotated.*
+
+## Figure 2: Debt Composition
+
+![[Visuals/fig-debt-composition.png]]
+
+*$87,000 total debt: $42K credit cards (48%), $31K student loans (36%), $14K auto loan (16%). All eliminated without bankruptcy.*
+
+---
+
 ## Visual Summary: The Weapons — In Order
 
 ![[Visuals/debt-decision-tree.png]]

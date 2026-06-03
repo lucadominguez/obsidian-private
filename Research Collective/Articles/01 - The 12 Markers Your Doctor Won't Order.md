@@ -236,6 +236,20 @@ I'm not going to tell you this is easy. It took me three years and more money th
 
 ---
 
+## Figure 1: Biomarker Transformation
+
+![[Visuals/fig1-before-after-forest.png]]
+
+*Before/after forest plot for all 12 markers. Grey = baseline. Green = after optimization. Dashed line = optimal threshold. All data from Dr. Elias Voss, 3 years of monthly panels.*
+
+## Figure 2: Homocysteine Reduction by Supplement Type
+
+![[Visuals/fig2-homocysteine-comparison.png]]
+
+*Reduction in homocysteine levels by supplement type in MTHFR C677T carriers. Standard folic acid produces minimal reduction (~12%). Methylated forms (5-MTHF + methyl-B12) produce 3x the effect (~38%). Source: Research Collective member data (n=47).*
+
+---
+
 ## Visual Summary: Before → After
 
 ![[Visuals/12-markers-dashboard.png]]

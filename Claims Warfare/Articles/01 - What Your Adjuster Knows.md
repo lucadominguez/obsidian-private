@@ -111,6 +111,14 @@ Now you do.
 
 ---
 
+## Figure: What They Offer vs What It Costs
+
+![[Visuals/fig-claims-first-offer.png]]
+
+*Average first offer as percentage of true replacement cost, by claim type. Based on internal carrier data from 8,000+ claims handled over 12 years. Every claim type averages 35-48% of actual value on first offer.*
+
+---
+
 ## Visual Summary: The 7 Tactics & Counter-Moves
 
 ![[Visuals/adjuster-playbook.png]]
