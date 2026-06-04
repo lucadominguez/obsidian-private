@@ -1,25 +1,53 @@
 # Content Pipeline — The Research Collective
 
-## The Funnel
+## The Full Funnel: Article + Video + Social
 
 ```mermaid
 graph TD
-    A[Social / Reddit / YouTube] --> B[Free Article / Thread]
-    B --> C[Email Capture — Lead Magnet]
-    C --> D[Welcome Sequence 7 Days]
-    D --> E[Free Deep-Dive Article]
-    E --> F[Free Protocol Teaser]
-    F --> G{Paywall}
-    G -->|Subscribe $149-997/mo| H[Protocol Database Access]
-    G -->|Not yet| I[Nurture: "The Cost of Flying Blind"]
-    I --> J[Limited Preview: One Full Protocol]
-    J --> G
+    A[YouTube Video<br/>Weekly narrated slideshow] --> B[Free Article<br/>Substack post]
+    A --> C[Video Clips<br/>YouTube Shorts, TikTok, Reels]
+    C --> D[X/Twitter Threads<br/>Key insight pull-quotes]
+    B --> E[Email Capture<br/>Lead Magnet PDF]
+    D --> E
+    E --> F[Welcome Sequence<br/>7-day nurture]
+    F --> G[Free Deep-Dive Article]
+    G --> H[Free Protocol Teaser<br/>Limited preview]
+    H --> I{Paywall}
+    I -->|Subscribe $149-997/mo| J[Protocol Database]
+    I -->|Not yet| K[Nurture: "The Cost of Flying Blind"]
+    K --> L[Limited Preview: Full Protocol]
+    L --> I
     
-    H --> K[Full Protocol Library]
-    H --> L[Sourcing Intelligence]
-    H --> M[Crowd Bloodwork Database]
-    H --> N[Community / Group Buys]
+    J --> M[Full Protocol Library]
+    J --> N[Sourcing Intelligence]
+    J --> O[Crowd Bloodwork Database]
+    J --> P[Community / Group Buys]
+
+    style A fill:#7c2d12,stroke:#f97316,color:#fff
+    style B fill:#1e3a5f,stroke:#3b82f6,color:#fff
+    style C fill:#4a1d6e,stroke:#a855f7,color:#fff
+    style I fill:#14532d,stroke:#22c55e,color:#fff
+    style J fill:#14532d,stroke:#22c55e,color:#fff
 ```
+
+### Video Funnel (New — top of funnel)
+
+| Stage | Platform | Content | Cadence | Goal |
+|---|---|---|---|---|
+| Long-form video | YouTube | 15-30min narrated slideshows (Perun-style) | Weekly | Build authority, capture search traffic |
+| Short clips | YouTube Shorts | 60-sec highlight from weekly video | 2x/week | Reach new audience, algorithm discovery |
+| Vertical clips | TikTok, Reels | 30-sec vertical crop | 3x/week | Younger demographics, viral potential |
+| Quote cards | X/Twitter | Key insight + chart screenshot | Daily | Drive to article/video, build following |
+
+### Video → Article Pipeline
+
+Each weekly video becomes:
+1. **YouTube video** (long-form slideshow) — posted Monday
+2. **Substack article** (written version of the script) — posted Wednesday
+3. **X thread** (5-7 key insights from the video) — posted Thursday
+4. **2-3 clips** (extracted highlights) — posted throughout the week
+
+This maximizes the ROI on each piece of content. One script produces: video, article, thread, and clips.
 
 ## Content Tiers
 
