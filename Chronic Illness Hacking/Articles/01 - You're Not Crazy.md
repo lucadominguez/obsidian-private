@@ -16,6 +16,12 @@ Standard diagnostic panels are designed for acute illness, not the complex immun
 
 Baraniuk et al. (2024, *Frontiers in Immunology*, DOI: 10.3389/fimmu.2024.1440643) conducted a meta-analysis of 28 studies and found natural killer cell cytotoxicity reduced to roughly half of healthy control levels in ME/CFS — the most consistent immune abnormality in the literature. The test exists. It is not in any standard panel. This gap between what medicine can measure and what it routinely does measure is the central problem this publication exists to address.
 
+## The Diagnostic Gap — Visualized
+
+![[Visuals/fig-diagnostic-gap.png]]
+
+*Percentage of patients who receive each test during standard diagnostic workup for ME/CFS-like symptoms. The first four tests (CBC, CMP, TSH, ANA) are routinely administered. The remaining seven — including the tests that actually detect the conditions — are ordered for fewer than 25% of patients. NK cell function testing: 2%. Tilt table: 5%. EBV panel: 6%. The tests that would explain the symptoms are the ones almost never ordered.*
+
 ## Tests Standard Panels Miss
 
 | Test | What It Detects | Why It's Missed |

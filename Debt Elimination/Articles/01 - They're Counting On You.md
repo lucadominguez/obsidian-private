@@ -28,11 +28,11 @@ Consumer debt is bought and sold on a secondary market at 4-7 cents on the dolla
 
 *Credit score recovery trajectory from a documented case: 420 to 780 in approximately 3 years. Key milestones annotated: validation letters sent at month 3, settlements at months 6-12, disputes at month 15, pay-for-delete at month 21, secured card at month 27.*
 
-### Debt Composition
+### Debt Composition and Settlement Rates
 
-![[Visuals/fig-debt-composition.png]]
+![[Visuals/fig-settlement-rates.png]]
 
-*Index case debt composition: $42K credit cards (48%, 29.99% APR), $31K student loans (36%), $14K auto (16%). All eliminated without bankruptcy.*
+*Average settlement percentage by debt type in the Debt Elimination Intelligence database. Lower percentages favor the debtor. Credit cards settle for 35% of balance on average. Medical debt: 22%. Auto loans: 48%. Student loans: hardest to settle at 72% of balance. The database tracks which creditors settle for what percentage — intelligence that doesn't exist in any organized form.*
 
 ---
 

@@ -21,7 +21,11 @@ Two mechanisms, not one. The widely cited mechanism is angiogenesis — BPC-157 
 
 ### 2. Why does oral BPC-157 work for some and not others?
 
-The Research Collective conducted a pharmacokinetic sub-study (n=5, same verified batch, 99.1% purity per Janoshik). Oral BPC-157 at 500mcg produced peak serum concentrations ranging from 1.8 to 7.4 ng/mL — a 4.1x variance between the highest and lowest absorber. The variability is almost certainly driven by gut pH and PEPT1 transporter expression. Members with low oral absorption typically respond when switched to subcutaneous administration (near-100% bioavailability) or when oral dose is increased. The practical implication: if oral BPC-157 produces no effect, the problem is probably absorption, not efficacy.
+The Research Collective conducted a pharmacokinetic sub-study (n=5, same verified batch, 99.1% purity per Janoshik).
+
+![[Visuals/fig-bpc157-absorption.png]]
+
+*Peak serum concentration after 500mcg oral BPC-157. Same dose. Same batch. Same lab. Five different people. The 4.1x variance between highest and lowest absorber (7.4 vs 1.8 ng/mL) demonstrates why oral BPC-157 produces inconsistent results. Members with low absorption typically respond when switched to subcutaneous administration or when oral dose is increased. Implication: if oral produces no effect, the problem is probably absorption, not efficacy.*
 
 ### 3. What does the database show about dosing?
 

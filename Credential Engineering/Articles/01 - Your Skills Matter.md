@@ -16,7 +16,11 @@ Approximately 2 million college-educated immigrants in the US are unemployed or 
 
 The education industry generates $1.7 trillion annually. The average bachelor's degree costs $104,000 (private) or $41,000 (public). Meanwhile, credential evaluation through a NACES member evaluator costs approximately $200 and takes 7-10 business days. A credential evaluation report legally establishes your foreign degree as equivalent to a US bachelor's for employment and licensing purposes.
 
-## The Pathways
+## The Pathways — Visualized
+
+![[Visuals/fig-pathway-costs.png]]
+
+*Cost comparison of credential recognition pathways. A new bachelor's degree costs $41,000-$104,000. A WGU competency-based degree completed in 2 terms: $7,600. Law office study (available in 4 states): ~$4,000. 10 CLEP exams: $890 (approximately 1 year of college credit). NACES credential evaluation (WES): $200. The information needed to bypass the paper ceiling costs 0.2% of what a new degree costs.*
 
 | Pathway | Cost | Timeline | Outcome |
 |---|---|---|---|
