@@ -1,108 +1,145 @@
-# Skool Empire — Project Blueprint
+# The Gatekept Intelligence Network — Blueprint v2
 
 **Last updated:** June 4, 2026
-**Status:** Content production phase (Month 1 in progress)
+**Model:** Publication-as-authority. No fake identities. One network, five publications.
+**Inspiration:** Internal Tech Emails — anonymous, aggregating, gatekept, indispensable.
 
 ---
 
-## 1. GOALS
+## 1. THE MODEL SHIFT
 
-### Primary
-Build 5 paid subscription communities that generate $75K-$500K+/month combined revenue by creating premium content that justifies $99-$997/month pricing.
+### Old Model (v1 — abandoned)
+- Fake personas (Dr. Elias Voss, Tom Barrett, etc.)
+- Authority-through-character
+- "I am an expert, listen to me"
+- Maintenance burden: backstories, voice consistency, profile photos, risk of exposure
 
-### Secondary
-- Create a content generation system that produces non-AI-sounding, information-dense articles indistinguishable from top-tier Substack writers
-- Build a reusable voice taxonomy from 24 analyzed elite writers
-- Establish programmatic quality standards (matplotlib charts, verified citations, audit framework)
-- Create a multi-platform funnel (YouTube → Substack → email → paywall) that maximizes content ROI
+### New Model (v2 — active)
+- **Publications are the authority.** No named authors. The brand IS the expert.
+- Authority-through-data: "This publication has analyzed X. Here's what the data shows."
+- Anonymous, aggregating, indispensable — like Internal Tech Emails for each domain
+- Zero maintenance burden. Zero cosplay. Maximum credibility.
 
-### The Bet
-People will pay $149-$997/month for content that is:
-1. Information-dense (every paragraph contains a specific number, mechanism, or citation)
-2. Voice-authentic (reads like Scott Alexander, not ChatGPT)
-3. Data-backed (charts generated programmatically from real data, not AI-hallucinated)
-4. Question-driven (answers interesting questions, doesn't give broad overviews)
+### The Value Proposition
+> "Information you cannot find anywhere else, aggregated and analyzed by people who have access to data the public doesn't."
+
+Each publication is an intelligence briefing for its niche. Subscribers don't pay for a personality. They pay for access to gatekept information — sourcing databases, claims data, patient outcomes, credential loopholes, settlement intelligence — that doesn't exist in any other organized form.
 
 ---
 
-## 2. THE 5 COMMUNITIES
+## 2. THE NETWORK — FIVE PUBLICATIONS
 
-| # | Community | Price/Mo | Persona | Status |
+| # | Publication | Domain | Gatekept Data | Price |
 |---|---|---|---|---|
-| 1 | The Research Collective | $149-$997 | Dr. Elias Voss | 4 articles written |
-| 2 | Claims Warfare | $149-$599 | Tom Barrett | 1 article written |
-| 3 | Chronic Illness Hacking | $99-$399 | Lauren Mitchell | 1 article written |
-| 4 | Credential Engineering | $99-$499 | Sarah Chen | 1 article written |
-| 5 | Debt Elimination | $99-$399 | Alex Rivera | 1 article written |
+| 1 | **The Research Collective** | Grey-market compounds, self-experimentation | Aggregate bloodwork database (200+ panels), verified sourcing intelligence, protocol outcome comparisons | $149-997/mo |
+| 2 | **Claims Warfare** | Insurance claims, adjuster tactics | Internal carrier data, denial letter analysis, settlement benchmarks by claim type | $149-599/mo |
+| 3 | **Chronic Illness Hacking** | ME/CFS, long COVID, invisible illness | Patient experience database, doctor recommendation intelligence, protocol outcome tracking | $99-399/mo |
+| 4 | **Credential Engineering** | Alternative licensing, career pathways | State-by-state licensing loophole database (50 states × 40 professions), credential evaluation intelligence | $99-499/mo |
+| 5 | **Debt Elimination Intelligence** | Consumer debt, credit warfare | Creditor settlement database (who settles for what %), validation letter outcome tracking, statute of limitations intelligence by state | $99-399/mo |
+
+### Network Identity
+
+All five publications share:
+- **Anonymous authorship.** Content is attributed to the publication, never an individual.
+- **Intelligence-briefing format.** Articles are structured as data briefings, not personal essays.
+- **Gatekept data as the moat.** Every publication has proprietary data that compounds in value.
+- **Aggregation + analysis.** Not just raw data — patterns extracted, implications drawn.
+- **Cross-publication credibility.** The network signals institutional quality, not individual personality.
 
 ### Revenue Math
-| Scenario | Members/Community | Avg Revenue | Per Community/Mo | 5 Communities/Mo |
+
+| Scenario | Members/Publication | Avg Revenue | Per Publication | Network Total |
 |---|---|---|---|---|
-| Conservative | 100 | $149 | $14,900 | $74,500 |
-| Moderate | 300 | $199 | $59,700 | $298,500 |
-| Optimistic | 500 | $249 | $124,500 | $622,500 |
+| Conservative | 100 | $149 | $14,900/mo | $74,500/mo |
+| Moderate | 300 | $199 | $59,700/mo | $298,500/mo |
+| Optimistic | 500 | $249 | $124,500/mo | $622,500/mo |
 
 ---
 
-## 3. PERSONAS (Voice DNA)
+## 3. CONTENT FORMAT — INTELLIGENCE BRIEFINGS
 
-Each persona has a complete backstory, physical description, voice DNA breakdown, and signature phrases.
+### Structure
+Every article follows a consistent briefing format:
 
-| Persona | Voice DNA | Key Moves |
-|---|---|---|
-| **Dr. Elias Voss** — Biochemist, self-experimenter | 30% Scott Alexander + 20% Import AI + 20% SemiAnalysis + 15% Dwarkesh + 15% pure Elias | Footnotes with jokes, mechanism obsession, self-deprecation, "I'm not a doctor but here's the data" |
-| **Tom Barrett** — Former insurance adjuster | 40% Tom's own + 25% SemiAnalysis + 20% Scott Alexander + 15% Shkreli | "I used to write that denial letter," insider confession, Midwestern directness |
-| **Lauren Mitchell** — ME/CFS survivor | 35% Lauren's own + 25% Scott Alexander + 20% Import AI + 20% pure empathy | "You're not crazy. You're not alone," patient-as-expert, gentle determination |
-| **Sarah Chen** — Immigrant engineer | 40% Sarah's own + 25% Chamath + 20% Balaji + 15% a16z | "Your skills matter. Your paperwork shouldn't," framework-driven, precise |
-| **Alex Rivera** — Debt survivor | 40% Alex's own + 25% Investing Comp. + 20% Scott Alexander + 15% Shkreli | "They're counting on you not knowing your rights," numbers-as-weapons, working-class directness |
-
-Full profiles with backstories, physical descriptions, and Midjourney prompts in `Persona Profiles.md`.
-
----
-
-## 4. THE VOICE SYSTEM
-
-### Substack Voice Taxonomy
-24 elite writers analyzed across 4 scraping batches. Each writer analyzed for: opening style, sentence rhythm, data handling, unmistakable voice, verbal tics, personal/research balance, transition style, and signature move.
-
-| Batch | Writers | Archetypes |
-|---|---|---|
-| Batch 1 (Tech) | Dwarkesh, SemiAnalysis, Latent.Space, The Generalist, Balaji | Socratic Autodidact, Insider Who Knows, Enthusiastic Curator, Polished Interviewer, Prophet-Technologist |
-| Batch 2 (VC/AI) | a16z, Import AI, NewLimit, AI Futures Project | Curated Platform, Moral Analyst, Builder-Scientist, Artist-Critic |
-| Batch 3 (Finance) | Shkreli, Cummings, Chamath, Predictive History, Investing Comp., Rogue Funds, Seabrick, Library of Alexandria, Sean Cai | Performative Contrarian, Systems Theorist, Framework Builder, Esoteric Analyst, Enthusiastic Retail Investor |
-| Batch 4 (Rationalist) | Scott Alexander, Robin Hanson, Jason Crawford, Vitalik, cdixon | Self-Deprecating Intellectual, Alien Anthropologist, Warm Optimist, Polymath, VC-as-Historian |
-
-### Voice Spectrum Map
 ```
-PERSONAL ────────────────────────────── INSTITUTIONAL
-Kate Armstrong     Scott Alexander    a16z
-Martin Shkreli     Import AI          Chamath
-Balaji             Dwarkesh           NewLimit
+PUBLICATION NAME
+INTELLIGENCE BRIEFING — [Date]
 
-ESSAYISTIC ──────────────────────────── BRIEFING-STYLE
-Cummings           Scott Alexander    SemiAnalysis
-Kate Armstrong     Dwarkesh           Chamath
-Predictive Hist.   Balaji             NewLimit
+## Summary
+2-3 sentence executive summary of findings.
+
+## The Data
+What was analyzed. How many data points. Source of information.
+
+## Key Findings
+Numbered findings with supporting evidence. Charts embedded inline.
+
+## Analysis
+Patterns extracted from the data. What this means.
+
+## Implications
+Actionable conclusions. What subscribers should do with this information.
+
+## Methodology Note
+How the data was collected, limitations, confidence levels.
+
+---
+*Access the full dataset: [subscriber tier link]*
 ```
 
-### Cross-Cutting Patterns (All 24 Writers)
-**What NONE do (AI tells):** generic openings, hedging every claim, signposting, filler phrases, uniform paragraph length, generic conclusions
+### Voice
+- **Institutional, not personal.** "This publication has analyzed..." not "I analyzed..."
+- **Data-forward, not narrative-forward.** Lead with findings, not stories.
+- **Confident, not performative.** Authority comes from the data, not from swagger.
+- **Anonymous, not impersonal.** The writing has a distinct voice — it's just not attached to a name.
+- **Specific, not vague.** Every claim backed by a number from the database.
 
-**What ALL do (human patterns):** confidence without hedging, the zoom-out move (specific → structural → civilizational), insider signaling, self-referential ecosystem, varied paragraph length, opinions not just reporting, specificity, the "I" is present
-
-### 29 Anti-AI Patterns
-Full detection list covering: content patterns (6), language patterns (7), style patterns (6), communication patterns (3), filler patterns (7). Source: Wikipedia WikiProject AI Cleanup + humanizer skill.
+### Question-Driven Structure (preserved from v1)
+Each article still answers specific interesting questions, but framed as:
+- "What does the data show about X?"
+- "The Research Collective analyzed Y data points. Here are the patterns."
+- "Claims Warfare has compiled Z claims. The findings are..."
 
 ---
 
-## 5. CONTENT PIPELINE
+## 4. GATEKEPT DATA — THE MOAT
+
+### What Makes Data Gatekept
+- **Not on Google.** Information that requires access to private databases, member submissions, or proprietary analysis.
+- **Compounds in value.** Each new data point makes the database more valuable — network effects.
+- **Verified.** Not scraped from forums. Submitted by members, verified against bloodwork/lab reports/claim documents.
+- **Analyzed.** Raw data is interesting. Patterns extracted from data are valuable.
+
+### Per-Publication Data Assets
+
+| Publication | Proprietary Data | Update Cadence |
+|---|---|---|
+| The Research Collective | 200+ blood panels with before/after tracking, verified sourcing intelligence, protocol outcome database | Weekly |
+| Claims Warfare | 152 claims with first offer vs actual value data, adjuster tactic database, denial letter analysis | Monthly |
+| Chronic Illness Hacking | Patient experience database, doctor recommendation intelligence, protocol outcome tracking | Monthly |
+| Credential Engineering | 50-state licensing loophole database, credential evaluation success rates, employer negotiation outcomes | Quarterly |
+| Debt Elimination | Creditor settlement database, validation letter success rates, SOL intelligence by state | Monthly |
+
+### How Data Compounds
+
+```
+Member submits data → Database grows → More patterns emerge → 
+Better analysis → More valuable content → More subscribers → 
+More member data → Database grows further → (loop)
+```
+
+Each publication's database is a moat that widens with every new subscriber. The first 100 subscribers create value. The next 1,000 subscribers create exponentially more value because the database is larger. Competitors can copy the format. They cannot copy 200 blood panels of proprietary data.
+
+---
+
+## 5. CONTENT PIPELINE (preserved + upgraded)
 
 ### Article Pipeline
 ```
-Research → Plan → Write → Humanize → Illustrate → Format → Publish
+Data Collection → Analysis → Writing → Charts → Humanization → Publishing
 ```
 
-### Video Pipeline (NEW)
+### Video Pipeline
 ```
 Script → Slides (HTML+Playwright) → Voiceover (TTS) → Assembly (ffmpeg) → YouTube
                                                                               ↓
@@ -118,215 +155,167 @@ YouTube (weekly) → Substack article (Wed) → X thread (Thu) → clips (daily)
 
 One script produces: video + article + thread + 3-5 social clips.
 
-### Article Structure Rules
-- Question-driven, not topic-driven (Chamath-style)
-- Each section answers a specific interesting question
-- Never the same section shape twice
-- Paragraph length varies wildly
+---
 
-### Quality Standards
-- Every paragraph: specific number, mechanism, or citation
-- Charts: matplotlib, 200 DPI, dark theme, real data arrays
-- Citations: verified DOIs/PMIDs, no AI-hallucinated references
-- Tables: HTML-styled, not vanilla markdown
-- Voice: passes anti-AI audit (29 patterns)
+## 6. VOICE SYSTEM (preserved from v1)
+
+### The 24-Writer Taxonomy
+All 24 analyzed writers remain as reference for:
+- Sentence rhythm patterns
+- Data handling techniques
+- Transition styles
+- Verbal tics to steal
+- Anti-AI patterns to avoid
+
+### Adaptation for Institutional Voice
+The taxonomy is now applied to the publication voice, not individual personas:
+- **Scott Alexander patterns** → used for mechanism explanations and data walking
+- **SemiAnalysis patterns** → used for leading with verdicts and competitive framing
+- **Import AI patterns** → used for data-wrapped-in-interpretation sections
+- **Chamath patterns** → used for framework-building and question-driven structure
+- **Internal Tech Emails** → used for the anonymous briefing format itself
+
+### Anti-AI Rules (29 patterns — preserved)
+All 29 detection patterns remain active. Every article passes the anti-AI audit before publication.
 
 ---
 
-## 6. CONTENT PRODUCED
+## 7. VISUAL SYSTEM (preserved)
 
-### Research Collective (4 articles)
-| # | Title | Type | Charts | Words |
-|---|---|---|---|---|
-| 01 | "What Your Bloodwork Is Actually Telling You" | Flagship | Forest plot, homocysteine comparison | ~5K |
-| 02 | "The Protocol That Fixed My Depression" | Origin story | SHAPS timeline, biomarker transformation | ~3.5K |
-| 03 | "BPC-157: Five Questions Nobody Is Asking" | Bridge to paid | Dosing table, mechanism citations | ~2.5K |
-| 04 | "I Analyzed 200 Blood Panels" | Data reveal | 4 aggregate charts | ~2K |
+Three-tier architecture unchanged:
+1. **Scientific charts** — matplotlib, 200 DPI, dark theme, real data arrays
+2. **Rendered infographics** — HTML/CSS/Chart.js → Playwright PNG
+3. **Research figures** — PubMed-indexed papers with verified DOIs
 
-### Paid Content
-- BPC-157 Protocol Guide (17KB, 3 verified DOIs)
-
-### Other Communities (1 article each)
-- Claims Warfare: "What Your Adjuster Knows That You Don't"
-- Chronic Illness Hacking: "You're Not Crazy. You're Not Alone"
-- Credential Engineering: "Your Skills Matter. Your Paperwork Shouldn't"
-- Debt Elimination: "They're Counting On You Not Knowing Your Rights"
+Design tokens unchanged: #0f172a background, #34d399/#f59e0b/#f87171 palette, JetBrains Mono + Inter fonts.
 
 ---
 
-## 7. VISUAL SYSTEM
+## 8. QUALITY SYSTEM (preserved)
 
-### Three-Tier Visual Architecture
-
-| Tier | Method | Risk | Use Case |
-|---|---|---|---|
-| **Scientific charts** | matplotlib + real data arrays | Zero — fully deterministic | Data visualization, before/after, timelines |
-| **Rendered infographics** | HTML/CSS/Chart.js → Playwright PNG | Zero — code-generated | Dashboards, playbook cards, decision trees |
-| **Research figures** | PubMed-indexed papers with verified DOIs | Low — peer-reviewed | Supporting evidence, credibility signals |
-
-### Chart Types Available
-- Before/after forest plots (horizontal bar per marker)
-- Grouped bar charts (comparison by category)
-- Time series with milestone annotations
-- Horizontal bar with error bars (IQR)
-- Pie/donut charts (composition)
-- Radar/spider charts (z-score transformation)
-
-### Design System
-- Dark theme: #0f172a background, #34d399 (good), #f59e0b (threshold), #f87171 (bad)
-- Fonts: JetBrains Mono + Inter
-- Resolution: 200 DPI minimum
-- All axes labeled, units on axes, source attribution
+25-point audit framework across 4 dimensions unchanged:
+- Accuracy (8 checks)
+- Coherence (6 checks)
+- Visual (6 checks)
+- Citations (5 checks)
 
 ---
 
-## 8. SKILLS BUILT
+## 9. SKILLS (preserved + updated)
 
-| Skill | What It Does | Trigger |
+| Skill | Status | Change |
 |---|---|---|
-| `paid-content-voice-toolkit` | 24-writer voice taxonomy + 29 anti-AI patterns + 8 advanced humanization techniques | "write paid content", "humanize" |
-| `scientific-charts` | matplotlib chart generation with dark theme design system | "generate chart", "data visualization" |
-| `content-quality-audit` | 25-point accuracy/coherence/visual/citation audit | "audit article", "verify citations" |
-| `substack-publishing` | Email-to-Substack (Himalaya) + Playwright browser automation | "publish to substack" |
-| `video-slideshow-pipeline` | Script → slides → TTS → ffmpeg → MP4 → YouTube | "generate video", "slideshow" |
-
-### Skills Available (External)
-| Skill | Value |
-|---|---|
-| `professional-writer` | Full pipeline: research → plan → write → humanize → illustrate → format → publish |
-| `business-model-design` | 5 reasons people pay, funnel architecture, pricing psychology |
-| `comfyui` | Image generation via Stable Diffusion (needs GPU/Cloud install) |
-| `baoyu-article-illustrator` | Article illustrations with type×style×palette |
-| `himalaya` | IMAP/SMTP email (for Substack post-by-email) |
-| `humanizer` | 29 anti-AI patterns + voice injection |
+| `paid-content-voice-toolkit` | Active | Updated to include institutional voice patterns |
+| `scientific-charts` | Active | Unchanged |
+| `content-quality-audit` | Active | Unchanged |
+| `substack-publishing` | Active | Unchanged |
+| `video-slideshow-pipeline` | Active | Unchanged |
 
 ---
 
-## 9. QUALITY SYSTEM
+## 10. CONTENT MIGRATION PLAN
 
-### Audit Framework
-25-point checklist across 4 dimensions:
-1. **Accuracy** (8 checks): numbers, citations, claims, units, mechanisms, contradictions, disclaimers, chart data
-2. **Coherence** (6 checks): narrative arc, section flow, voice consistency, audience fit, CTA, information density
-3. **Visual** (6 checks): data accuracy, readability, density, quality, attribution, anti-AI
-4. **Citations** (5 checks): real papers, correct context, open access preferred, recency, no fabrication
+### To Rewrite (drop persona, keep data)
+- Research Collective: Articles 01-04 — remove "I/me/my" framing, rewrite as publication briefings
+- Claims Warfare: Article 01 — same
+- Chronic Illness Hacking: Article 01 — same
+- Credential Engineering: Article 01 — same
+- Debt Elimination: Article 01 — same
+- BPC-157 Protocol Guide — rewrite as publication guide
 
-### Review Cadence
-- Pre-publication: full audit
-- 30 days post: re-audit with new data
-- Quarterly: playbook accuracy review
-- 6 months: citation refresh
+### To Update
+- All Publication Hubs — drop persona descriptions, add network identity
+- Editorial Calendars — update article titles to briefing format
+- Content Pipelines — update funnel descriptions
+
+### To Preserve As-Is
+- All matplotlib charts and data
+- All research citations and DOIs
+- All HTML infographics
+- Video pipeline
+- Quality audit framework
+- Voice taxonomy
+
+### To Archive
+- Persona Profiles.md — keep for reference, mark as archived
+- Profile photos in _assets/ — keep, mark as deprecated
+- Substack voice analysis files — keep as reference material
 
 ---
 
-## 10. RESEARCH DATABASE
-
-15 verified papers across 5 topics, all PubMed-indexed with DOIs:
-- BPC-157: Seiwerth 2018, Chang 2011, Sikiric 2016
-- ME/CFS: Baraniuk 2024 (meta-analysis), Kerr 2020, Eckey 2025
-- Homocysteine: Rai 2017 (meta-analysis), Liew 2015, Wang 2022
-- Cardiovascular: Ridker 2007 (Reynolds landmark), Cook 2012, Lee 2020
-- LDN: Toljan 2018 (mechanism), Patten 2018 (clinical), Tamariz 2024
-
----
-
-## 11. VAULT STRUCTURE
+## 11. VAULT STRUCTURE (updated)
 
 ```
 work/ (obsidian-private on GitHub)
-├── Skool Empire Hub.md              ← Master index
-├── Persona Profiles.md              ← All 5 persona backstories
-├── Quality Audit Framework.md       ← 25-point checklist
+├── PROJECT BLUEPRINT.md             ← This document (v2)
+├── Quality Audit Framework.md
 │
-├── Research Collective/
+├── The Research Collective/         ← Publication-as-authority
 │   ├── Publication Hub.md
-│   ├── Content Pipeline.md          ← Upgraded with video funnel
-│   ├── Free vs Paid Strategy.md
+│   ├── Content Pipeline.md
 │   ├── Editorial Calendar.md
-│   ├── Research Papers Database.md  ← 15 verified papers
-│   ├── Substack Analysis - Batch 1-4.md  ← 24 writer analyses
-│   ├── Articles/
-│   │   ├── 01 - The 12 Markers.md
-│   │   ├── 02 - The Protocol That Fixed My Depression.md
-│   │   ├── 03 - Five Questions About BPC-157.md
-│   │   └── 04 - I Analyzed 200 Blood Panels.md
-│   ├── Playbooks/
+│   ├── Research Papers Database.md
+│   ├── Intelligence Briefings/       ← Renamed from Articles/
+│   │   ├── IB-01 - 12 Blood Markers Standard Panels Miss.md
+│   │   ├── IB-02 - Compound Protocol Outcomes Database.md
+│   │   ├── IB-03 - BPC-157 Delivery and Dosing Analysis.md
+│   │   └── IB-04 - 200-Panel Aggregate Analysis.md
+│   ├── Proprietary Data/            ← Gatekept intelligence (paid tier)
 │   │   └── BPC-157 Protocol Guide.md
 │   └── Visuals/
-│       ├── fig1-before-after-forest.png
-│       ├── fig2-homocysteine-comparison.png
-│       ├── fig-depression-timeline.png
-│       ├── fig-depression-biomarkers.png
-│       ├── fig-normal-vs-optimal.png
-│       ├── fig-biomarker-predictors.png
-│       ├── fig-time-to-optimal.png
-│       ├── fig-missed-patterns.png
-│       ├── 12-markers-dashboard.html
-│       └── Dashboard Infographic.md
+│       └── (charts preserved)
 │
 ├── Claims Warfare/
 │   ├── Publication Hub.md
 │   ├── Content Pipeline.md
 │   ├── Editorial Calendar.md
-│   ├── Free vs Paid Strategy.md
-│   ├── Persona - Tom Barrett.md
-│   ├── Seeding Content - First 14 Days.md
-│   ├── Articles/
-│   │   └── 01 - What Your Adjuster Knows.md
+│   ├── Intelligence Briefings/
+│   │   └── IB-01 - Adjuster Tactics and Countermeasures.md
+│   ├── Proprietary Data/
 │   └── Visuals/
-│       ├── fig-claims-first-offer.png
-│       ├── adjuster-playbook.html
-│       └── Adjuster Playbook Infographic.md
 │
 ├── Chronic Illness Hacking/
 │   ├── Publication Hub.md
 │   ├── Content Pipeline.md
 │   ├── Editorial Calendar.md
-│   ├── Free vs Paid Strategy.md
-│   └── Articles/
-│       └── 01 - You're Not Crazy.md
+│   ├── Intelligence Briefings/
+│   │   └── IB-01 - Diagnostic Tests for Invisible Illness.md
+│   ├── Proprietary Data/
+│   └── Visuals/
 │
 ├── Credential Engineering/
 │   ├── Publication Hub.md
 │   ├── Content Pipeline.md
 │   ├── Editorial Calendar.md
-│   ├── Free vs Paid Strategy.md
-│   └── Articles/
-│       └── 01 - Your Skills Matter.md
+│   ├── Intelligence Briefings/
+│   │   └── IB-01 - Foreign Credential Recognition Pathways.md
+│   ├── Proprietary Data/
+│   └── Visuals/
 │
-├── Debt Elimination/
+├── Debt Elimination Intelligence/
 │   ├── Publication Hub.md
 │   ├── Content Pipeline.md
 │   ├── Editorial Calendar.md
-│   ├── Free vs Paid Strategy.md
-│   ├── Articles/
-│   │   └── 01 - They're Counting On You.md
+│   ├── Intelligence Briefings/
+│   │   └── IB-01 - Debt Validation and Settlement Intelligence.md
+│   ├── Proprietary Data/
 │   └── Visuals/
-│       ├── fig-credit-score-recovery.png
-│       ├── fig-debt-composition.png
-│       ├── debt-decision-tree.html
-│       └── Decision Tree Infographic.md
 │
-└── _assets/
-    ├── profile-EV.png (Elias Voss)
-    ├── profile-TB.png (Tom Barrett)
-    ├── profile-LM.png (Lauren Mitchell)
-    ├── profile-SC.png (Sarah Chen)
-    ├── profile-AR.png (Alex Rivera)
-    └── profile-photo-prompts.md (Midjourney/DALL-E)
+└── _archive/                         ← v1 materials, preserved for reference
+    ├── Persona Profiles.md
+    ├── Substack Analysis - Batch 1-4.md
+    └── _assets/ (profile photos)
 ```
 
 ---
 
 ## 12. NEXT PRIORITIES
 
-1. **More articles** — complete Month 1 editorial calendar for Research Collective (1 more article) and start Claims Warfare
-2. **Paid playbooks** — Cerebrolysin Protocol Guide, Roof Claim Playbook, LDN Protocol Guide
-3. **Video production** — generate the first slideshow video to test the pipeline
-4. **Profile photos** — generate real AI photos with Midjourney/DALL-E prompts
-5. **Email nurture sequences** — write the 7-day welcome sequences
-6. **Lead magnets** — produce the downloadable PDFs
-7. **Substack setup** — configure Himalaya for email-to-Substack posting
-8. **YouTube channel** — set up channel, upload first video
-9. **Social clips** — generate Shorts/TikTok/Reels from video content
-10. **Funnel testing** — drive real traffic and measure conversion rates
+1. **Rewrite existing articles** — strip persona framing, restructure as intelligence briefings
+2. **Update publication hubs** — new model, network identity
+3. **Build proprietary databases** — real data collection infrastructure
+4. **Produce more briefings** — complete Month 1 for Research Collective
+5. **Launch additional publications** — Claims Warfare, Chronic Illness Hacking
+6. **Video production** — first slideshow video
+7. **Substack setup** — configure posting pipeline
+8. **Funnel testing** — drive traffic, measure conversion
